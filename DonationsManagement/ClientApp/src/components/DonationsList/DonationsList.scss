@@ -1,0 +1,74 @@
+﻿.donations-list {
+    .list {
+        .item-wrapper {
+            width: 100%;
+            display: block;
+            border: 2px #dedede solid;
+            border-radius: 10px;
+            margin-top: 10px;
+
+            &.open {
+                border-color: #314aac;
+
+                .item {
+                    background-color: #e4f8fe;
+                }
+            }
+
+            .item {
+                display: flex;
+                justify-content: space-between;
+                justify-content: space-between;
+                height: 50px;
+                padding: 10px;
+                border-radius: 10px 10px 0 0;
+            cursor: pointer;
+
+                .details {
+                    display: flex;
+                    & > * {
+                        margin-left: 6px;
+                    }
+
+                    .entity-name {
+                        font-weight: bold;
+                    }
+                }
+
+                .btns {
+                    display: flex;
+
+                    & > * {
+                        margin-right: 6px;
+                        display: block;
+                        border:none;
+                        background-color: rgba(0, 0,0,0);
+                        cursor: pointer;
+                    }
+
+                    .edit-btn {
+                    }
+
+                    .remove-btn {
+                    }
+
+                    .line {
+                        height: 30px;
+                        width: 1px;
+                        background-color: black;
+                    }
+
+                    .arrow-icon{
+                        margin: 0 10px;
+    align-items: center;
+    display: flex;
+                    }
+                }
+            }
+
+            .more-details {
+                padding: 10px;
+            }
+        }
+    }
+}

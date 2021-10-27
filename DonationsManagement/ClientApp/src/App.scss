@@ -1,0 +1,34 @@
+﻿body{
+    direction:rtl;
+
+.container{
+    width:600px;
+    max-width:90%;
+    margin:0 auto;
+    text-align:center;
+    padding:20px 0;
+
+    .btn {
+        width: 146px;
+        height: 40px;
+        border-radius: 23px;
+        border: 1px #314aac solid;
+        cursor: pointer;
+
+        &:disabled {
+            opacity: 0.5;
+            cursor: unset;
+        }
+
+        &.white-btn {
+            background-color: white;
+            color: #314aac;
+        }
+
+        &.blue-btn {
+            background-color: #314aac;
+            color: white;
+        }
+    }
+}
+}
